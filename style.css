@@ -1,0 +1,26 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.container{
+     width: 100px;
+     height: 100px;
+     /* background-color: limegreen; */
+     border-radius: 50%;
+     border: 10px solid red;
+     border-top: 10px solid transparent;
+     border-bottom: 10px solid transparent;
+     animation-name: Xushnudbek;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-duration: 1.5s;
+}
+@keyframes Xushnudbek{
+     from{
+          transform: rotate(0deg);
+     }
+     to{
+          transform: rotate(360deg);
+     }
+}
